@@ -1,7 +1,6 @@
 #body{
-    padding-top: 65px;
-    background-color:rgb(241,241,241);  
-    
+    padding-top: 75px; 
+    background-color: #ecf0f5;
 }
 #pop-up-background.active{
     opacity:0.4;
@@ -71,8 +70,7 @@
 .popup-content.active {
     visibility:visible;
 }
-  
-/*background-color:rgba(214, 219, 219, 0.884);*/
+
 #glorify {
     font-family: serif;
     font-style: italic;
@@ -80,8 +78,9 @@
     color:white;
 }
 #login{
+    border:none;
     color:white;
-    background-color:rgba(69, 69, 69, 0.37);
+    background-color:rgba(92, 92, 92, 0.37);
 }
 #login:hover{
     background-color:yellow;
@@ -92,13 +91,17 @@
     text-decoration: none;
     border-radius:10%;
     padding:10px;
+    font-size:15px; 
 }    
 #navbar1 .fa-facebook {
-    padding-left:13px;
-    padding-right:12px;
     background-color:rgba(78, 78, 78, 0.37);
     color: white;
     opacity:0.8;
+    font-size:18px;
+    padding-bottom:13px;
+    padding-top:13px;
+    padding-left:15px;
+    padding-right: 15px;
 }
  #navbar1 .fa-facebook:hover {
      
@@ -111,28 +114,136 @@
     background-color:rgba(78, 78, 78,0.37);
     opacity:0.8; 
     color: white;
+    font-size:18px;
+    padding-bottom:13px;
+    padding-top:13px;
+    padding-left:13px;
+    padding-right: 13px;
 }
 #navbar1 .fa-twitter:hover {
     background: #55ACEE;
     color: white;
     opacity:1;
 }
-@media screen and (min-width:1050px){
-    #navbar1{
-        height:3.7rem;
-        padding-left:6%;
-        padding-right:6%;
-    } 
+#navbar-signup{
+    background-color:#47cf73;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:600;
+    padding-left:17px;
+    padding-right:17px;
+    border:none; 
+    margin-right: 0.5rem;
 }
-@media screen and (max-width:1050px) and(min-width: 990px){
-    #navbar1{
-        height:3.7rem;
-    } 
+#navbar-twitter{
+    margin-right: 5rem;
 }
-@media screen and (max-width:1050px){
+#login{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:18px;
+    padding-right:18px; 
+}
+#suscribe{
+    padding-top: 4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:18px;
+    border:2.5px solid rgba(92,92,92,0.37);
+    background-color:initial;
+    color: white;
+    margin-right: 0.45rem;
+} 
+#suscribe:hover{
+    color:#47cf73;
+}
+ 
+@media screen and (min-width:990px){
+    #navbar1{
+        height:4.05rem;
+        padding-left:5%;
+        padding-right:5%;
+        background: linear-gradient(to right, #161616ea ,#303030);
+    }
+    #navbar-signup{
+        background-color:#47cf73;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight:600;
+        padding-left:17px;
+        padding-right:17px;
+        border:none; 
+        margin-left:0.35rem;
+    }
+    #login{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left:18px;
+        padding-right:18px; 
+    }
+    #suscribe{
+        padding-top: 4px;
+        padding-bottom:4px;
+        padding-left:8px;
+        padding-right:18px;
+        border:2.5px solid rgba(92,92,92,0.37);
+        background-color:initial;
+        color: white;
+    } 
+    #suscribe:hover{
+        color:#47cf73;
+    }
+    #html-navbar{
+        margin-left: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    #navbar1{
+        padding-left:3%;
+        padding-right: 3%; 
+    }
+}
+ 
+@media screen and (max-width:990px){
+    #body{
+        padding-top: 65px;
+    }
     #navbar1{
         padding-left:3%;
         padding-right:3%;
-    } 
+        background: linear-gradient(to right, #161616ea ,#303030);
+        height: 4.5rem;
+    }
+    #html-navbar{
+        background: linear-gradient(to right, #161616ea ,#303030);
+        width:100%;
+        margin-left: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #html-navbar-login{
+        margin-left:5%; 
+        margin-right:5%;
+        border-top:1px solid black;
+        width: 90%;
+    }
+    #html-navbar-signup{
+        margin-left:5%; 
+        margin-right:5%;
+        border-top:1px solid black;
+        width: 90%;
+    }
+    #html-navbar-icon{
+        margin-left:5%; 
+        margin-right:5%;
+        border-top:1px solid black;
+        width: 90%;
+    }
+    #html-navbar-subscribe{
+        margin-left:5%; 
+        margin-right:5%;
+        border-top:1px solid black;
+        width: 90%;
+    }
 }
  
