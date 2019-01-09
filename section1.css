@@ -38,7 +38,14 @@
     padding-left: 5%;
     padding-right: 5%; 
 }
-@media screen and (min-width:1500px) {
+#grid-container4 {
+    display: grid;
+    grid-gap: 1.7rem;
+    grid-template-columns:14fr 5fr; 
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+@media screen and (min-width:1300px) {
     #grid-container1{
         padding-left: 7%;
         padding-right: 7%;
@@ -56,13 +63,6 @@
     display: grid;
     grid-gap: 1.7rem;
     grid-template-columns:200fr 105fr;
-}
-#grid-container4 {
-    display: grid;
-    grid-gap: 1.7rem;
-    grid-template-columns:14fr 5fr; 
-    padding-left: 5%;
-    padding-right: 5%; 
 }
 .item41{
     grid-column: 1;
