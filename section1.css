@@ -210,6 +210,11 @@
         height:15rem;
     }
 }
+@media screen and (max-width:300px) {
+    #card-img1{
+        height:12rem;
+    }
+}
 @media screen and (max-width:990px) {
     #grid-container1{
         margin-top:1rem;
